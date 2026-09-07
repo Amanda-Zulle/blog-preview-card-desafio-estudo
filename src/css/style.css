@@ -2,10 +2,43 @@
     background-color: var(--white);
     border-radius: 1.25rem;
     width: 20rem;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    display: flex;
+}
+
+.card-content {
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    color: var(--gray-500);
+    font-size: 1rem;
+}
+
+.data {
+    color: var(--gray-950);
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray-950);
+}
+
+.category {
+    background-color: var(--yellow);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+    color: var(--gray-950);
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: var(--gray-950);
+    line-height: 1.25;
 }
 
 
@@ -16,6 +49,11 @@
 
 
 
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
 
-.attribution { font-size: 0.6875rem; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
