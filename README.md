@@ -37,6 +37,7 @@ Os usuários devem ser capazes de:
 
 * **URL da solução:** https://github.com/Amanda-Zulle/blog-preview-card-desafio-estudo.git
 
+* **URL do site publicado:** https://amanda-zulle.github.io/blog-preview-card-desafio-estudo/
 
 ---
 
